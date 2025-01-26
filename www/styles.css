@@ -1,0 +1,12 @@
+.nav-tabs>li>a {
+  font-family: proxima-nova;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.selectize-input {
+  font-size: 14pt;
+}
+.selectize-dropdown-content {
+  font-size: 14pt;
+}
