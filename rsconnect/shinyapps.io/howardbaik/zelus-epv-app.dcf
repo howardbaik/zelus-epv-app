@@ -1,0 +1,10 @@
+name: zelus-epv-app
+title:
+username: howardbaik
+account: howardbaik
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 13813650
+bundleId: 9703393
+url: https://howardbaik.shinyapps.io/zelus-epv-app/
+version: 1
