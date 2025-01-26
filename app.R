@@ -151,7 +151,7 @@ server <- function(input, output) {
            title = paste("EPV for Possession ID", input$poss_id_overnight)) + 
       theme_light() +
       theme(
-        text = element_text(size = 19, family = "serif"),    # Global font settings
+        text = element_text(size = 17, family = "serif"),    # Global font settings
         axis.title = element_text(size = 17),               # Axis titles font size
         axis.text = element_text(size = 16)                # Axis text font size
       ) 
@@ -195,7 +195,7 @@ server <- function(input, output) {
       
       ggtitle(paste0(epv_poss_highest()$quarter_processed, " ", 
                      epv_poss_highest()$game_clock %/% 60, ":", round(epv_poss_highest()$game_clock %% 60, 0))) +
-      theme(plot.title = element_text(hjust = 0.5, size = 19, family = "serif"))
+      theme(plot.title = element_text(hjust = 0.5, size = 15, family = "serif"))
   })
   
   output$overnight_formation_lowest <- renderPlot({
@@ -236,7 +236,7 @@ server <- function(input, output) {
       
       ggtitle(paste0(epv_poss_lowest()$quarter_processed, " ", 
                      epv_poss_lowest()$game_clock %/% 60, ":", round(epv_poss_lowest()$game_clock %% 60, 0))) +
-      theme(plot.title = element_text(hjust = 0.5, size = 19, family = "serif"))
+      theme(plot.title = element_text(hjust = 0.5, size = 15, family = "serif"))
   })
   
   
